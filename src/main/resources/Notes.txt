@@ -1,0 +1,8 @@
+Dispatcher Servlet:
+Dispatcher servlet is the front controller of Spring MVC. So, all the HTTP requests are first received by DS.
+It processes the Http Request by following steps:
+    ->Identifies correct controller method based on request URL
+    ->Executes controller method: Returns model and view name
+    ->Identifies correct view using ViewResolver
+    ->Executes view
+Then it returns the HTTP response.
