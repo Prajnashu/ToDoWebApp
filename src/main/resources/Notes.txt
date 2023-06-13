@@ -6,3 +6,4 @@ It processes the Http Request by following steps:
     ->Identifies correct view using ViewResolver
     ->Executes view
 Then it returns the HTTP response.
+
