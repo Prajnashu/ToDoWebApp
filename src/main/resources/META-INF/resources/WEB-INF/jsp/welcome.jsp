@@ -4,8 +4,6 @@
     </head>
 
     <body>
-        <div>Welcome to the Welcome Page!</div>
-        <div>Your name: ${name}</div>
-        <div>Your password: ${password} </div>
+        <div>Welcome to the application ${name}!</div>
     </body>
 <html>
